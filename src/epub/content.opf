@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/c-j-cutcliffe-hyne/the-lost-continent</dc:identifier>
 		<dc:date>2017-02-06T23:35:56Z</dc:date>
-		<meta property="dcterms:modified">2017-07-20T23:58:30Z</meta>
-		<meta property="se:revision-number">9</meta>
+		<meta property="dcterms:modified">2017-07-27T20:08:17Z</meta>
+		<meta property="se:revision-number">10</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -37,7 +37,7 @@
 		<dc:description id="description">A swashbuckling adventure on the fabled continent of Atlantis.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Lost Continent&lt;/i&gt;, initially published as a serial in 1899, remains one of the enduring classics of the “lost race” genre. In it we follow Deucalion, a warrior-priest on the lost continent of Atlantis, as he tries to battle the influence of an egotistical upstart empress.  Featuring magic, intrigue, mythical monsters, and fearsome combat on both land and sea, the story is nothing if not a swashbuckling adventure.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Lost Continent&lt;/i&gt;, initially published as a serial in 1899, remains one of the enduring classics of the “lost race” genre. In it we follow Deucalion, a warrior-priest on the lost continent of Atlantis, as he tries to battle the influence of an egotistical upstart empress. Featuring magic, intrigue, mythical monsters, and fearsome combat on both land and sea, the story is nothing if not a swashbuckling adventure.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The Lost Continent&lt;/i&gt; was very influential on pulp fiction of the subsequent decades, and echoes of its style can be found in the work of Edgar Rice Burroughs, Robert E. Howard, and others.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
