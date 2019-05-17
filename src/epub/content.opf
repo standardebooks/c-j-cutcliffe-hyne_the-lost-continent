@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Lost Continent</dc:title>
 		<meta property="file-as" refines="#title">Lost Continent, The</meta>
 		<meta property="title-type" refines="#title">main</meta>
@@ -39,18 +39,20 @@
 		<dc:subject id="subject-2">Fantasy fiction</dc:subject>
 		<dc:subject id="subject-3">Atlantis (Legendary place) -- Fiction</dc:subject>
 		<dc:subject id="subject-4">Lost continents -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/285</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/285</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/285</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/285</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85118629</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh85047114</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2007101527</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2010100151</meta>
 		<meta property="se:subject">Fantasy</meta>
 		<dc:description id="description">A swashbuckling adventure on the fabled continent of Atlantis.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Lost Continent&lt;/i&gt;, initially published as a serial in 1899, remains one of the enduring classics of the “lost race” genre. In it we follow Deucalion, a warrior-priest on the lost continent of Atlantis, as he tries to battle the influence of an egotistical upstart empress. Featuring magic, intrigue, mythical monsters, and fearsome combat on both land and sea, the story is nothing if not a swashbuckling adventure.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The Lost Continent&lt;/i&gt; was very influential on pulp fiction of the subsequent decades, and echoes of its style can be found in the work of Edgar Rice Burroughs, Robert E. Howard, and others.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/285</dc:source>
 		<meta property="se:word-count">97814</meta>
