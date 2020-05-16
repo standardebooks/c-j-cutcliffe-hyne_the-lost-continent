@@ -51,7 +51,7 @@
 		<dc:description id="description">A swashbuckling adventure on the fabled continent of Atlantis.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Lost Continent&lt;/i&gt;, initially published as a serial in 1899, remains one of the enduring classics of the “lost race” genre. In it we follow Deucalion, a warrior-priest on the lost continent of Atlantis, as he tries to battle the influence of an egotistical upstart empress. Featuring magic, intrigue, mythical monsters, and fearsome combat on both land and sea, the story is nothing if not a swashbuckling adventure.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Lost Continent&lt;/i&gt; was very influential on pulp fiction of the subsequent decades, and echoes of its style can be found in the work of Edgar Rice Burroughs, Robert E. Howard, and others.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Lost Continent&lt;/i&gt; was very influential on pulp fiction of the subsequent decades, and echoes of its style can be found in the work of &lt;a href="https://standardebooks.org/ebooks/edgar-rice-burroughs"&gt;Edgar Rice Burroughs&lt;/a&gt;, &lt;a href="https://standardebooks.org/ebooks/robert-e-howard"&gt;Robert &lt;abbr&gt;E.&lt;/abbr&gt; Howard&lt;/a&gt;, and others.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/285</dc:source>
