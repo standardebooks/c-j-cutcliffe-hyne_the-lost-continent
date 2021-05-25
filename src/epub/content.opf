@@ -36,6 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Lost Continent: The Story of Atlantis</dc:title>
 		<meta property="file-as" refines="#fulltitle">Lost Continent, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Science fiction</dc:subject>
 		<dc:subject id="subject-2">Fantasy fiction</dc:subject>
 		<dc:subject id="subject-3">Atlantis (Legendary place) -- Fiction</dc:subject>
