@@ -65,8 +65,8 @@
 		<meta property="se:name.person.full-name" refines="#author">Charles John Cutcliffe Wright Hyne</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/C._J._Cutcliffe_Hyne</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50030394</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Maxime Maufra</dc:contributor>
 		<meta property="file-as" refines="#artist">Maufra, Maxime</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Maxime_Maufra</meta>
