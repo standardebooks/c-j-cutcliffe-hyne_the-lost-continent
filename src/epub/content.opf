@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/c-j-cutcliffe-hyne/the-lost-continent</dc:identifier>
 		<dc:date>2017-02-06T23:35:56Z</dc:date>
 		<meta property="dcterms:modified">2017-02-06T23:35:56Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -48,7 +49,7 @@
 		<meta property="term" refines="#subject-3">sh2007101527</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2010100151</meta>
-		<meta property="se:subject">Fantasy</meta>
+		<meta property="schema:genre">Fantasy</meta>
 		<dc:description id="description">A swashbuckling adventure on the fabled continent of Atlantis.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Lost Continent&lt;/i&gt;, initially published as a serial in 1899, remains one of the enduring classics of the “lost race” genre. In it we follow Deucalion, a warrior-priest on the lost continent of Atlantis, as he tries to battle the influence of an egotistical upstart empress. Featuring magic, intrigue, mythical monsters, and fearsome combat on both land and sea, the story is nothing if not a swashbuckling adventure.&lt;/p&gt;
@@ -57,32 +58,34 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/285</dc:source>
 		<dc:source>https://www.google.com/books/edition/The_Lost_Continent/xtdd2XR9mJIC</dc:source>
-		<meta property="se:word-count">97378</meta>
-		<meta property="se:reading-ease.flesch">75.24</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Lost_Continent:_The_Story_of_Atlantis</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/c-j-cutcliffe-hyne_the-lost-continent</meta>
+		<meta property="schema:wordCount">97378</meta>
+		<meta property="schema:educationalLevel">75.24</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Lost_Continent:_The_Story_of_Atlantis" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/c-j-cutcliffe-hyne_the-lost-continent" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">C. J. Cutcliffe Hyne</dc:creator>
 		<meta property="file-as" refines="#author">Hyne, C. J. Cutcliffe</meta>
-		<meta property="se:name.person.full-name" refines="#author">Charles John Cutcliffe Wright Hyne</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/C._J._Cutcliffe_Hyne</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50030394</meta>
+		<meta property="schema:alternateName" refines="#author">Charles John Cutcliffe Wright Hyne</meta>
+		<link href="https://en.wikipedia.org/wiki/C._J._Cutcliffe_Hyne" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50030394.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Maxime Maufra</dc:contributor>
 		<meta property="file-as" refines="#artist">Maufra, Maxime</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Maxime_Maufra</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr88003982</meta>
+		<link href="https://en.wikipedia.org/wiki/Maxime_Maufra" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr88003982.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Judith Boss</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Boss, Judith</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
